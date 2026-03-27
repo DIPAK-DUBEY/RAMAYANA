@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import './hero.css'
  const Content = () => (
   <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
     <motion.p
@@ -33,7 +34,7 @@ import { motion } from "framer-motion";
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.8 }}
-      className="mt-3 text-blue-300 italic text-sm sm:text-base max-w-md sm:max-w-xl"
+      className="mt-3 text-blue-300 italic text-sm sm:text-base max-w-md sm:max-w-xl herotxt"
     >
       The journey of dharma, devotion, and righteousness.
     </motion.p>
