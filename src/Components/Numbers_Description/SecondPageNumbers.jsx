@@ -11,7 +11,7 @@ const SecondPageNumbers = () => {
   ];
 
   return (
-    <div className="w-full py-16 sm:py-20 colors border-t-1 border-blue-900 border-b-1 border-blue-900">
+    <div className="w-full py-16 sm:py-20 colors  border-t border-blue-900 border-b border-blue-900">
 
       <div className="max-w-7xl mx-auto px-6 grid 
       grid-cols-1 

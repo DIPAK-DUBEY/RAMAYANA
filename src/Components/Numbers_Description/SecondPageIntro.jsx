@@ -3,7 +3,7 @@ import './SecondPage.css'
 
 const SecondPageIntro = () => {
   return (
-    <div className="colorofIntro text-white px-4 sm:px-6 py-10 sm:py-14">
+    <div className="colorofIntro text-white px-4 sm:px-6 py-10 sm:py-14 border-t border-blue-900 border-b-2 border-blue-900">
 
       <div className="
         flex flex-col 
@@ -72,12 +72,30 @@ const SecondPageIntro = () => {
             bg-gradient-to-r from-yellow-700 via-orange-400 to-yellow-500
 
             drop-shadow-[0_0_12px_rgba(251,191,36,0.5)]
-          "
-        >
-          “Where there is dharma, there is victory. <br className="hidden sm:block" />
-          Where there is Ram, there is the path of righteousness.”
-        </motion.p>
+            "
+            >
 
+          “Where there is dharma, there is victory". 
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.2, delay: 0.3 }}
+          viewport={{ once: true }}
+          className="
+            shlokhIntro  text-center 
+
+            text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px]
+
+            text-transparent bg-clip-text 
+            bg-gradient-to-r from-yellow-700 via-orange-400 to-yellow-500
+
+            drop-shadow-[0_0_12px_rgba(251,191,36,0.5)]
+            "
+            >
+
+          “Where there is Ram, there is the path of righteousness.”
+        </motion.p>
       </div>
     </div>
   );

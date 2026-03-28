@@ -27,7 +27,7 @@ const AudioPlayingButton = () => {
         <motion.span
           animate={{ opacity: [0.3, 1, 0.3] }}
           transition={{ duration: 1.2, repeat: Infinity }}
-          className="w-2 h-2 rounded-full bg-blue-400"
+          className="w-2 h-2 rounded-full bg-blue-400"          
         />
         {isPlaying ? "Pause Music " : "Play Music "}
       </button>

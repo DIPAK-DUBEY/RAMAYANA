@@ -4,10 +4,10 @@
 .colors{
   background-color: #040a10;
 }
- 
-/* .colorofIntro{
-  background-color: #01070d;
-} */
+.colors{
+  background-color: #040a10;
+}
+
 .colorofIntro{
   background-color: #010408;
 }
@@ -20,6 +20,5 @@
  }
  .shlokhIntro{
    font-family: 'IM Fell English', serif;
-
-
  }
+ 
