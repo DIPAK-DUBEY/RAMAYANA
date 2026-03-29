@@ -8,13 +8,13 @@ export const Warriorss = [
   },
   {
     name: "Ravana",
-    image: "/images/characters/Ravana.avif",
+    image: "/images/characters/Ravana.jpg",
     identity: "King of Lanka · Devotee of Shiva",
     powers: ["Shiva Blessings", "Ten Heads (Knowledge)", "Master of Vedas", "Astras Mastery"],
     summary: "Led Lanka’s forces with unmatched power and knowledge. Despite mastery of scriptures and weapons, his ego drove the war, ultimately falling to Rama and proving dharma prevails over pride."
   },
   {
-    name: "Indrajit (Meghanada)",
+    name: "Indrajit",
     image: "/images/characters/Meghnaath.jpg",
     identity: "Son of Ravana · Master of Astras",
     powers: ["Invisibility", "Nagpasha", "Brahmastra Usage", "Indra Conqueror"],

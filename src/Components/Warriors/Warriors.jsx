@@ -5,13 +5,10 @@ import { motion } from 'framer-motion'
 const Warriors = () => {
   return (
     <div className='flex flex-col bg-black text-white items-center px-4 sm:px-6 lg:px-10 py-10'>
-
-      {/* Heading */}
       <div className='flex flex-col mt-10 py-10 gap-4 text-center'>
         <h1 className='text-lg sm:text-xl text-blue-400'>
           The Eternal Heroes
         </h1>
-
         <h1 className='MaintextWarriors text-3xl sm:text-5xl lg:text-6xl'>
           Warriors Of{" "}
           <span className='text-transparent bg-clip-text 
@@ -38,7 +35,7 @@ const Warriors = () => {
                   opacity: 1,
                   y: 0,
                   transition: {
-                    duration: 0.6,
+                    duration: 0.9,
                     ease: "easeOut"
                   }
                 }

@@ -1,0 +1,83 @@
+.FontMain{
+    font-family:'Courier New', Courier, monospace;
+}
+.SecondMain{
+    font-family: 'Cinzel Decorative', cursive;
+}
+.vertical-timeline::before {
+  background: rgb(5, 116, 234) !important;
+  width: 2px !important; 
+}
+/* Timeline Box */
+.vertical-timeline-element-content {
+  background: rgba(5, 13, 21, 0.7) !important;
+  border: 1px solid rgba(33, 111, 236, 0.25) !important;
+  backdrop-filter: blur(12px)!important;
+  border-radius: 12px !important;
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.15) !important;
+}
+.vertical-timeline-element-content:hover{
+  border: 1px solid rgb(33, 111, 236) !important;
+  background: rgba(8, 21, 35, 0.7) !important;
+}
+.vertical-timeline-element-content-arrow {
+  border-right: 7px solid rgba(59, 130, 246, 0.4) !important;
+}
+.vertical-timeline-element-content-arrow:hover {
+  border-right: 7px solid rgba(59, 130, 246, 0.9) !important;
+}
+.vertical-timeline-element--work:hover .vertical-timeline-element-content {
+  box-shadow: 0 0 50px rgba(59, 130, 246, 0.8) !important;
+}
+
+/* Timeline Circle */
+.vertical-timeline-element-icon{
+  background: radial-gradient(circle, #3b82f6, #1e3a8a) !important;
+  box-shadow: 
+    0 0 15px rgba(59,130,246,0.6),
+    0 0 30px rgba(59,130,246,0.4);
+  border: 2px solid rgba(147,197,253,0.5) !important;
+  transition: all 0.4s ease;
+  margin-left: -15px !important;
+}
+.vertical-timeline-element:hover .vertical-timeline-element-icon {
+  transform: scale(1.1);
+  box-shadow: 
+    0 0 10px rgba(59,130,246,1),
+    0 0 20px rgba(59,130,246,0.8);
+}
+.TitleText{
+  font-family: 'IM Fell English', serif;
+  
+}
+.DescriptionText{
+  font-family:'Courier New', Courier, monospace;
+}
+
+.vertical-timeline-element-date{
+  color: rgb(0, 98, 255);
+  font-weight: 800 !important;
+  font-size: 20px !important; 
+
+}
+@media (max-width: 1170px) {
+  .vertical-timeline-element-icon {
+    margin-left: -0px !important;
+  }
+  .vertical-timeline-element-content {
+    padding: 18px 20px 14px 20px !important;
+  }
+  .vertical-timeline-element-content-arrow,
+  .vertical-timeline-element-content-arrow:hover {
+    border-right-width: 5px !important;
+  }
+  .TitleText {
+    font-size: 1.25rem !important;
+  }
+  .SubTitleText {
+    font-size: 0.95rem !important;
+  }
+  .DescriptionText {
+    font-size: 0.91rem !important;
+  }
+}
