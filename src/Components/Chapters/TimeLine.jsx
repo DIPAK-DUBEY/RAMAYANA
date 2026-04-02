@@ -88,6 +88,8 @@ const TimeLine = () => {
     <>
       <div className='bg-black'>
         <div className='flex flex-col gap-4 justify-center text-white items-center'>
+
+
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -108,7 +110,8 @@ const TimeLine = () => {
             <motion.span
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.6 }}
+              transition={{ duration: 0.8, delay: 0.2, ease: "easeIn" }}
+              viewport={{ once: true }}
               className="SecondMain text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-600 to-blue-700 font-bold"
             >
               Dharma
@@ -118,7 +121,7 @@ const TimeLine = () => {
           {/* LINE */}
           <motion.hr
             initial={{ width: 0, opacity: 0 }}
-            whileInView={{ width: "200px", opacity: 1 }}
+            whileInView={{ width: "250px", opacity: 1 }}
             transition={{ duration: 1.2, delay: 0.5 }}
             className='border-blue-700 mt-2'
           />
@@ -142,7 +145,14 @@ const TimeLine = () => {
                 className: 'bg-red-600',
               }}
             >
-              <h3 className='TitleText  text-blue-600 text-2xl '>{item.title}</h3>
+              <div className='flex flex-row gap-2 items-center'>
+                <motion.div
+                  animate={{ opacity: [0.1, 1, 0.3] }}
+                  transition={{ duration: 2.5, repeat: Infinity }}
+                  className="w-1.5 h-1.5 rounded-full bg-blue-400"
+                />
+                <h3 className='TitleText  text-blue-600 text-2xl '>{item.title}</h3>
+              </div>
               <h4 className='SubTitleText text-[16px]' > {item.subtitle}</h4>
               <p className='DescriptionText text-blue-200'>{item.description}</p>
             </VerticalTimelineElement>

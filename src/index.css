@@ -6,12 +6,9 @@ body {
   cursor: none;
 }
 
-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  z-index: 9998; 
+::selection {
+  background-color:rgba(12, 68, 133, 0.2);
+  color:rgb(75, 153, 226) ;
 }
 ::-webkit-scrollbar{
   width: 0.3rem;

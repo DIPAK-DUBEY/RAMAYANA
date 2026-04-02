@@ -5,19 +5,22 @@ import SecondPage from "./Components/Numbers_Description/SecondPage";
 import Warriors from "./Components/Warriors/Warriors";
 import Kandas from "./Components/Chapters/Kandas";
 import TimeLine from "./Components/Chapters/TimeLine";
-const App = ()=>{
-  useEffect(()=>{
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth' });
-  },[])
+import Weapons from "./Components/Astras/Weapons";
+
+const App = () => {
+  useEffect(() => {
+    //  window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }, [])
   return (
     <>
-      <canvas id="canvas"></canvas>
+
       <NeonCursor />
-    <Hero/>
-    <SecondPage/>
-    <Warriors/>
-    <Kandas/>
-    <TimeLine/>
+      <Hero />
+      <SecondPage />
+      <Warriors />
+      <Kandas />
+      <TimeLine />
+      <Weapons />
     </>
   )
 }

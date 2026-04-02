@@ -72,20 +72,21 @@ export default function Kandas() {
             key={item.id}
             initial="hidden"
             whileInView="visible"
+            viewport={{ once: true ,amount:0.2}}
             layout
-            transition={{ layout: { duration: 0.5, ease: "easeIn" } }}
+            transition={{ layout: { duration: 0.9, ease: "easeInOut" } }}
             variants={{
-              hidden: { opacity: 0, y: 70 },
-              visible: {
-                opacity: 1,
-                y: 0,
-                transition: {
-                  duration: 0.9,
-                  ease: "easeOut"
+                hidden: { opacity: 0, y: 50 },
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                  transition: {
+                    duration: 0.9,
+                    ease: "easeOut"
+                  },
                 }
-              }
-            }}
-            className="bg-black/40  hover:bg-gradient-to-b hover:from-[#050d15] hover:via-[#030b1c] hover:to-[#000000] border border-blue-500/20 rounded-xl p-5 text-center max-w-7xl hover:border-1 hover:border-blue-700" onClick={() =>
+              }}
+            className="border border-blue-500   bg-gradient-to-t from-[#000001] via-[#020918] to-[#000000]   p-5 text-center max-w-7xl  hover:border-blue-700 rounded-2xl" onClick={() =>
               setActive(active === item.id ? null : item.id)
             }>
             <h2 className="text-blue-400 text-xl font-semibold Mainfont">
@@ -99,10 +100,9 @@ export default function Kandas() {
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: "auto" }}
                 exit={{ opacity: 0, height: 0 }}
-                transition={{ duration: 0.4, ease: "easeInOut" }}
+                transition={{ duration: 0.9, ease: "easeInOut" }}
                 className="text-blue-100 mt-4 text-sm overflow-hidden"
-              
-              >
+              > 
                 {item.content}
               </motion.div>
             )}

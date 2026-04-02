@@ -1,0 +1,21 @@
+.colors{
+  background-color: #03080e;
+}
+
+.mainfont{
+    font-family:'Courier New', Courier, monospace;
+}
+.SecondMain{
+    font-family: 'Cinzel Decorative', cursive;
+}
+.colorss{
+  background-color: rgba(39, 75, 117, 0.1);
+  cursor: pointer;
+}
+.colorss:hover{
+  background-color: rgba(12, 68, 133, 0.2);
+
+}
+.maintext{
+  font-family: 'IM Fell English', serif;
+}
