@@ -66,7 +66,7 @@ export default function Kandas() {
           </span>
         </h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6  max-w-[1330px] mx-auto mb-25">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6  max-w-[1330px] mx-auto mb-25 ">
         {kandas.map((item) =>(
           <motion.div
             key={item.id}

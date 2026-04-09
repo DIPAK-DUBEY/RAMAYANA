@@ -1,5 +1,3 @@
-// astras.js
-
 const Astras = [
   {
     id: "kodanda",
@@ -22,7 +20,7 @@ const Astras = [
       "unbreakable strength"
     ],
     symbolism: "Represents dharma and disciplined power",
-    image: "/images/weapons/kodanda.png",
+    image: "/images/weapons/Kodanda.png", 
     model3d: "/models/kodanda.glb",
     colorTheme: "#DAA520",
     gradient: "from-yellow-500 to-amber-700"
@@ -49,7 +47,7 @@ const Astras = [
       "requires divine control"
     ],
     symbolism: "Ultimate power guided by responsibility",
-    image: "/images/weapons/brahmastra.png",
+    image: "/images/weapons/Brahmastra.png",
     model3d: "/models/brahmastra.glb",
     colorTheme: "#FFD700",
     gradient: "from-yellow-400 to-orange-600"
@@ -76,7 +74,7 @@ const Astras = [
       "causes chaos"
     ],
     symbolism: "Represents destructive purification",
-    image: "/images/weapons/agneyastra.png",
+    image: "/images/weapons/Agneyastra.png",
     model3d: "/models/agneyastra.glb",
     colorTheme: "#FF4500",
     gradient: "from-red-500 to-orange-700"
@@ -103,7 +101,7 @@ const Astras = [
       "controls battlefield"
     ],
     symbolism: "Represents balance and control",
-    image: "/images/weapons/varunastra.png",
+    image: "/images/weapons/Varunastra.png",
     model3d: "/models/varunastra.glb",
     colorTheme: "#1E90FF",
     gradient: "from-blue-400 to-blue-700"
@@ -130,7 +128,7 @@ const Astras = [
       "reduces visibility"
     ],
     symbolism: "Represents unseen force and movement",
-    image: "/images/weapons/vayavyastra.png",
+    image: "/images/weapons/Vayavyastra.png",
     model3d: "/models/vayavyastra.glb",
     colorTheme: "#87CEEB",
     gradient: "from-sky-400 to-blue-500"
@@ -157,7 +155,7 @@ const Astras = [
       "area damage"
     ],
     symbolism: "Represents divine authority and force",
-    image: "/images/weapons/indrastra.png",
+    image: "/images/weapons/Indrastra.png",
     model3d: "/models/indrastra.glb",
     colorTheme: "#FFD700",
     gradient: "from-yellow-300 to-yellow-600"
@@ -184,7 +182,7 @@ const Astras = [
       "induces fear"
     ],
     symbolism: "Represents illusion and entrapment",
-    image: "/images/weapons/nagastra.png",
+    image: "/images/weapons/Nagastra.png",
     model3d: "/models/nagastra.glb",
     colorTheme: "#228B22",
     gradient: "from-green-500 to-emerald-800"
@@ -211,7 +209,7 @@ const Astras = [
       "restores strength"
     ],
     symbolism: "Represents freedom and divine rescue",
-    image: "/images/weapons/garudastra.png",
+    image: "/images/weapons/Garudastra.png",
     model3d: "/models/garudastra.glb",
     colorTheme: "#00BFFF",
     gradient: "from-blue-400 to-cyan-600"
@@ -238,7 +236,7 @@ const Astras = [
       "hard to resist"
     ],
     symbolism: "Represents deadly precision",
-    image: "/images/weapons/shakti.png",
+    image: "/images/weapons/Shakti.png",
     model3d: "/models/shakti.glb",
     colorTheme: "#DC143C",
     gradient: "from-red-500 to-rose-700"
@@ -265,7 +263,7 @@ const Astras = [
       "fear generation"
     ],
     symbolism: "Represents ego and power",
-    image: "/images/weapons/chandrahas.png",
+    image: "/images/weapons/Chandrahas.png",
     model3d: "/models/chandrahas.glb",
     colorTheme: "#8B0000",
     gradient: "from-red-800 to-black"
